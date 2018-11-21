@@ -4,20 +4,11 @@ class FizzBuzz
     def initialize
       @fizzbuzz_array = []
     end
-    # mehtods
 
-    #divisible by 3
-    #returns true or false if div by 3 or not
     def divisible_by?(num1, div_by_num)
       (num1 % div_by_num).zero?
 
     end
-
-    #divisible by 5 if div by 5 or not
-
-    #fizzbuzz range iterator
-    # set fizzbuzz_array of given range
-    # with correct fizzbuzz combo
 
     def fizzbuzz_iterator(range_from, range_to)
       (range_from..range_to).each do |i|
