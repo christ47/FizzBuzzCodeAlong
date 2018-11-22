@@ -59,11 +59,5 @@ class Multiples
         end
         sum
       end
-
-# generate range of 0 - 1000
-#make array of multiples of 3 and 5 under 1000 expected 233168
-#sum all these numbers together
-#generates fibonacci numbers
-# check number is even.
   end
 end
